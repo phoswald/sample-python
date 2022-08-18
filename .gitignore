@@ -1,1 +1,4 @@
-.venv
+myvenv/
+miniconda.sh
+miniconda/
+first_figure.*
