@@ -2,3 +2,4 @@ myvenv/
 miniconda.sh
 miniconda/
 first_figure.*
+*.glade~
