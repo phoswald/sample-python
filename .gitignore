@@ -1,5 +1,8 @@
 myvenv/
 miniconda.sh
 miniconda/
-first_figure.*
+build/
+dist/
+figure-*.*
 *.glade~
+*.spec
