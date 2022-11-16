@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Input/Output Sample</title>
+</head>
+
+<body>
+    {% if name != "" %}
+        <p><a href=".">Go Back</a></p>
+        <h1>Output</h1>
+        <p>Hello, {{ name }}!</p>
+    {% else %}
+        <h1>Input</h1>
+        <form action="." method="GET">
+        <input name="name" type="text" placeholder="Enter your name here">
+        <input type="submit" value="Submit">
+        </form>
+    {% endif %}
+</body>
+
+</html>

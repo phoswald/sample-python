@@ -18,6 +18,7 @@ $ python3 -m pip install psycopg2-binary
 $ python3 -m pip install plotly==5.10.0
 $ python3 -m pip install pandas
 $ python3 -m pip install kaleido
+$ python3 -m pip install flask
 $ deactivate
 ~~~
 
